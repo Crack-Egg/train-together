@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/fonts/Pretendard-Regular.otf') format('otf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/fonts/Pretendard-Medium.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/fonts/Pretendard-SemiBold.otf') format('otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/fonts/Pretendard-Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('/fonts/SpoqaHanSansNeo-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('/fonts/SpoqaHanSansNeo-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('/fonts/SpoqaHanSansNeo-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumGothic';
+  src: url('/fonts/NanumGothic.otf') format('otf');
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a,
+input,
+textarea {
+  padding: 0;
+  margin: 0;
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ck-editor__editable {
+  min-height: 640px;
+}
+
+.ck.ck-editor__editable_inline {
+  padding: 2em 2.5em !important;
+}
+
+.MuiPopper-root {
+  z-index: 10000;
+}

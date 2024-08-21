@@ -1,10 +1,12 @@
 const prettierConfig = {
-  plugins: ["./node_modules/prettier-plugin-multiline-arrays"],
+  plugins: [
+    './node_modules/prettier-plugin-multiline-arrays'
+  ],
   singleQuote: true,
   semi: false,
   useTabs: false,
   tabWidth: 2,
-  trailingComma: "all",
+  trailingComma: 'all',
   printWidth: 100,
   multilineArraysWrapThreshold: 2,
 };
